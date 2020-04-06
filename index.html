@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ping Pong</title>
+    <style>
+        /* Style for the document. */
+        .game-background {
+            width: 100%;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -2;
+            background: #1e1e1e;
+        }
+
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        .game-canvas-main {
+            z-index: 1;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="game">
+        <div class="game-background"></div>
+        <canvas class="game-canvas-main"></canvas>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
